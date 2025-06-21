@@ -6,6 +6,6 @@ import java.util.List;
 public interface IProductoServicio {
     List<Producto> listarProductos();
     Producto buscarProductoPorId(Integer idProducto);
-    void guardarProdcuto(Producto producto);
+    Producto guardarProducto(Producto producto);
     void eliminarProductoPorId(Integer idProducto);
 }
